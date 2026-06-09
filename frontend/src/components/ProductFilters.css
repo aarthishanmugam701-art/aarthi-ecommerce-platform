@@ -1,0 +1,27 @@
+.filters-bar {
+  background: white;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.filters-bar .form-group {
+  margin-bottom: 0;
+  flex: 1;
+  min-width: 140px;
+}
+
+.filters-bar .search-group {
+  flex: 2;
+  min-width: 200px;
+}
+
+.filters-actions {
+  display: flex;
+  gap: 0.5rem;
+}
